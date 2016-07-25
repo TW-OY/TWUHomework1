@@ -1,7 +1,7 @@
 public class TriangleExercise {
-    public static void main(String[] args) {
-        printDiamondName(4, "bill");
-    }
+//    public static void main(String[] args) {
+//        printDiamondName(4, "bill");
+//    }
 
     public static void printNCharHorizontal(int n, String s) {
         for (int i = 0; i < n; i++) {
