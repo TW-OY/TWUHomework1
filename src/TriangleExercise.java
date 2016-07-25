@@ -1,6 +1,8 @@
 public class TriangleExercise {
     public static void main(String[] args) {
-        printNstarVertical(8);
+        for(int i = 1; i <= 3; i++) {
+            printNstarHorizontal(i);
+        }
     }
 
     public static void printNstarHorizontal(int n) {
@@ -15,6 +17,7 @@ public class TriangleExercise {
             System.out.println("*");
         }
     }
+
 }
 
 
